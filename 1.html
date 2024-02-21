@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+    <head>
+        <title>Weather app</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <meta name="description" content="Page in whinch you can check weather for your city/village ">
+        <meta name="keywords" content="Weather,Weather,Pogoda,Info,Information about weather">
+        
+        <meta name="robots" content="index,follow">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+        <link rel="stylesheet" href="1.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--    
+            <meta property="fb:page_id" content="">
+        <meta property="og:title" content="">
+        <meta property="og:image" content="">
+        <meta property="og:description" content="">
+        <meta property="og:url" content="">
+        <meta property="og:site_name" content="">
+        <meta property="og:type" content="website">
+
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:url" content="">
+        <meta name="twitter:title" content="">
+        <meta name="twitter:description" content="">
+        <meta name="twitter:image" content="">
+        <meta name="twitter:site" content=""> -->
+
+        <script src="1.js" defer></script>
+
+    
+    </head>
+
+    <body>
+        <div id="startInput">
+            <h1 >Search  weather for your city/village!</h1>
+
+                <input  spellcheck="false" id="search"  placeholder="Search.." name="search" id="search" class="search" >
+                <button onclick="checkWeather()"><i class="fa fa-search"></i></button>
+        </div>
+
+        <div id="dataWeather">        
+            <p class="pStyle"> <img src="R.jfif"> City/village: <span id="city">???</span> </p> 
+            <p class="pStyle"> <img src="Sun.jfif"> Temperature: <span id="temp">???</span></p>
+            <p class="pStyle"> <img src="humidity.jfif"> Humidity: <span id="humidity">???</span></p>
+            <p class="pStyle" > <img src="wind.jfif"> Wind: <span id="wind">???</span></p>
+            <p class="pStyle">  <img src="flags.jfif"> Country: <span id="country">???</span></p>
+        </div>
+
+    </body>
+</html>
